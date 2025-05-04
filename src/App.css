@@ -1,1 +1,15 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+body {
+  @apply font-sans;
+  @apply bg-black;
+}
+
+#root {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;   /* Vertical centering */
+  justify-content: center; /* Horizontal centering */
+}
