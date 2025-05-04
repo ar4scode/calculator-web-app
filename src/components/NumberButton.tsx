@@ -6,7 +6,13 @@ type NumberButtonProps = {
 
 const NumberButton = ({number} : NumberButtonProps) => {
   return (
-    <Button variant="outlined" color="secondary" size="large">{number}</Button>
+    <Button 
+      variant="contained"
+      size="large"
+      style={{background: "#f0e9e9", color: "#000", borderRadius: "35px", padding: "15px 0", fontWeight: "bold"}}
+    >
+      {number}
+    </Button>
   ) 
 }
 
